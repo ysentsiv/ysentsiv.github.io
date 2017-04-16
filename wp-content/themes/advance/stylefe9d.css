@@ -2712,3 +2712,11 @@ input[type="search"] {
     padding-bottom: 1.6%;
 	padding-top: 1.6%;
 }
+.copytext a{
+    display: none;
+}
+
+.masthead-arrow {
+    href: '#about';
+}
+
