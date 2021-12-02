@@ -2,25 +2,21 @@
 
 <html lang="en">
 	<head>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	  <title>A Basic HTML5 Template</title>
-	  <script id="ch-script" src="https://galderma.uat.chweb.app/js/widget.js?id=0"></script>
-		<script>
-		  window.onload = function() {
-		    let div = document.createElement("div");
-		    div.id = 'ch-widget';
-		    if (document.referrer) {
-		      div.setAttribute('extraFields', '{"origin":"' + document.referrer + '"}');
-		    }
-		    document.body.appendChild(div);
-		  };
-		</script>
-
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>A Basic HTML5 Template</title>
 	</head>
-	<body>
+	<body>		
+		<script id="ch-script" src="https://galderma.uat.chweb.app/js/widget.js?id=0"></script>
+		<script>
+			window.onload = function() {
+				let div = document.createElement("div");
+				div.id = 'ch-widget';
+				if (document.referrer) {
+					div.setAttribute('extraFields', '{"origin":"' + document.referrer + '"}');
+				}
+				document.body.appendChild(div);
+			};
+		</script>
 	</body>
 </html>
-
-
