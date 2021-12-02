@@ -6,17 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>A Basic HTML5 Template</title>
 	</head>
-	<body>		
-		<script id="ch-script" src="https://galderma.uat.chweb.app/js/widget.js?id=0"></script>
+	<body>
 		<script>
-			window.onload = function() {
-				let div = document.createElement("div");
-				div.id = 'ch-widget';
-				if (document.referrer) {
-					div.setAttribute('extraFields', '{"origin":"' + document.referrer + '"}');
-				}
-				document.body.appendChild(div);
-			};
-		</script>
+			let div = document.createElement("div");
+			div.id = 'ch-widget';
+			if (document.referrer) {
+				div.setAttribute('extraFields', '{"origin":"' + document.referrer + '"}');
+			}
+			document.body.appendChild(div);
+		</script>		
+		<script id="ch-script" src="https://galderma.uat.chweb.app/js/widget.js?id=0"></script>
 	</body>
 </html>
